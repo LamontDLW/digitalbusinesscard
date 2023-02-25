@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Social from "./components/Social";
+import Footer from "./components/Footer";
 import "./styles/index.css"
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       <Hero />
       <About />
       <Social />
+      <Footer />
     </div>
   );
 }
